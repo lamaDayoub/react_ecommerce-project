@@ -20,7 +20,7 @@ export function HomePage({ cart }) {
     return (
         <>
             <title>Ecommecrce project</title>
-            <link rel="icon" type="image/svg+xml" href="/images/home-favicon.png" />
+            <link rel="icon" type="image/svg+xml" href="/icons/home-favicon.png" />
             <Header cart={cart} />
 
 
