@@ -1,8 +1,7 @@
-import { it, expect, describe, vi, beforeEach } from 'vitest';
-import { render, screen, within } from '@testing-library/react';
+import { it, expect, describe, beforeEach } from 'vitest';
+import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router';
-import userEvent from '@testing-library/user-event';
-import axios from 'axios';
+
 import { Header } from './Header';
 
 describe('Header component', () => {
